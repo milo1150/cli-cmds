@@ -50,7 +50,7 @@ sudo kill -9 <PID>
  docker container prune -a
 ```
 
-- Remove All Images Built by Docker Compose: To remove images built by Docker Compose, include the --rmi flag
+- Remove All Images Built by Docker Compose
 
 ```bash
 docker-compose down --rmi all -v
