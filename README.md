@@ -59,6 +59,11 @@ docker-compose down --rmi all -v
 --rmi all: Removes all images built by docker-compose. \
 -v: Also removes volumes associated with the containers.
 
+- Show docker disk usage
+```bash
+docker system df
+```
+
 # DB
 
 - pgcli [Documentation](https://github.com/dbcli/pgcli)
