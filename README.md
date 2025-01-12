@@ -78,3 +78,24 @@ docker system df
  pgcli postgres://postgres:postgres@127.0.0.1:5432/mydb
 ```
 
+# Python
+
+- Change Poetry python version
+
+```bash
+pyenv install 3.11.11
+```
+
+```bash
+pyenv local 3.11.11
+```
+
+```bash
+poetry env use $(pyenv which python)
+```
+
+```bash
+poetry run python --version
+```
+
+
