@@ -98,4 +98,13 @@ poetry env use $(pyenv which python)
 poetry run python --version
 ```
 
+# Git
+
+- Untrack file if init .gitignore in later project 
+
+```bash
+git rm -r --cached tmp
+git rm --cached .env
+```
+
 
