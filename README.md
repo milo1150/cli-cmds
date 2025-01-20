@@ -78,6 +78,13 @@ docker system df
  pgcli postgres://postgres:postgres@127.0.0.1:5432/mydb
 ```
 
+# GO
+
+- Run all test cases with print log
+```bash
+go test ./... -v
+```
+
 # Python
 
 - Change Poetry python version
