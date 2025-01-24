@@ -16,6 +16,12 @@ RUN echo "Checking watchexec version..." && watchexec --version && echo "Done ch
 docker run -it --entrypoint sh {IMAGE}
 ```
 
+- Shell into docker image
+
+```bash
+docker exec -it {NAME} sh
+```
+
 - Check OS Architecture
   
 ```bash
