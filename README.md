@@ -13,7 +13,7 @@ RUN echo "Checking watchexec version..." && watchexec --version && echo "Done ch
 - To debug further, override the CMD and start a shell to run commands manually
 
 ```bash
-docker-compose run --rm server sh
+docker run -it --entrypoint sh {IMAGE}
 ```
 
 - Check OS Architecture
